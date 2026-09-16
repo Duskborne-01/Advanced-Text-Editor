@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Text Editor</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <section>
+        <h1>TEXT EDITOR</h1>
+
+        <div class="button-container">
+            <button onclick="editoroption1()" title="Bold Text">Bold</button>
+            <button onclick="editoroption2()" title="Italic Text">Italic</button>
+            <button onclick="editoroption3()" title="Left Align">
+                <i class="fas fa-align-left"></i>
+            </button>
+
+            <button onclick="editoroption4()" title="Center Align">
+                <i class="fas fa-align-center"></i>
+            </button>
+            <button onclick="editoroption5()" title="Right Align">
+                <i class="fas fa-align-right"></i>
+            </button>
+            <button onclick="editoroption6()" title="Uppercase Text">Upper Case</button>
+            <button onclick="editoroption7()" title="Lowercase Text">Lower Case</button>
+            <button onclick="editoroption8()" title="Capitalize Text">Capitalize</button>
+            <button onclick="editoroption9()" title="Clear Text">Clear Text</button>
+        </div>
+
+        <textarea id="textarea1" rows="15" placeholder="Your text here..."></textarea>
+    </section>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
